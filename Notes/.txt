@@ -1,0 +1,59 @@
+REACT:-
+React is a powerful JavaScript library for building dynamic and interactive user interfaces (UIs). 
+It is developed by Facebook. React is known for its component-based architecture which allows 
+you to create reusable UI elements, making complex web applications easier to manage and maintain. 
+React is used to build single-page applications.
+
+React is a JavaScript library for building user interfaces.
+React is used to build single-page applications.
+React allows us to create reusable UI components.
+
+
+react is complie in html,css,javaScript and browser know only this 3 technogoly.
+react use for build complex forntend.
+
+STATE-JS and UI-DOM   sync  to create react.
+khan accdemy , Unsplash  adopat react.
+
+Features of React
+1. JSX (JavaScript Syntax Extension):
+JSX combines HTML and JavaScript, allowing you to embed JavaScript objects within HTML elements.
+It enhances code readability and simplifies UI development.
+Example:
+const name = "GeekforGeeks";
+const ele = <h1>Welcome to {name}</h1>;
+
+2. Virtual DOM (Document Object Model):
+React uses a virtual DOM, which is an exact copy of the real DOM.
+When there are modifications in the web application, React updates the virtual DOM first and then computes the differences between the real DOM and the virtual DOM.
+This approach minimizes unnecessary re-rendering and improves performance.
+
+3. One-way Data Binding:
+React follows one-way data binding, where data flows from parent components to child components.
+Child components cannot directly return data to their parent components, but they can communicate with parents to modify states based on provided inputs.
+
+4. Performance:
+React’s virtual DOM and component-based architecture contribute to better performance.
+Separate components allow efficient rendering and faster execution.
+
+5. Extension:
+React has a rich ecosystem and supports various extensions.
+Explore tools like Flux, Redux, and React Native for mobile app development and server-side rendering.
+
+6. Conditional Statements in JSX:
+JSX allows writing conditional statements directly.
+Display data in the browser based on provided conditions.
+Example:
+const age = 12;
+if (age >= 10) {
+  return <p>Greater than {age}</p>;
+} else {
+  return <p>{age}</p>;
+}
+
+7. Components:
+React divides web pages into reusable and immutable components.
+Component-based development simplifies code organization and maintenance.
+
+
+
