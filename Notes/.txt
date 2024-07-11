@@ -54,6 +54,26 @@ if (age >= 10) {
 7. Components:
 React divides web pages into reusable and immutable components.
 Component-based development simplifies code organization and maintenance.
+          
+          ----- REACT-DOM  web 
+REACT ---
+          ----- REACT -NATIVE mobile
 
+react project create = 1. npe(node packge executor) create-react-app project-name
+                       go to folder cd project-name
+                       dir (see packge.json)
+                       npm run start
+
+                       npm run build
+                       create build folder (js convert in , build server users)
+2.
+ Grab react and react-dom from npm, set up your custom build process with a bundler like Vite. bundler 
+          npm create vite@latest
+          project name:- project-name
+          select a framework (React)
+          select a variant (javaScript)
+           cd my-project
+            npm install 
+            npm run dev
 
 
