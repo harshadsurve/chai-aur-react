@@ -77,3 +77,21 @@ react project create = 1. npe(node packge executor) create-react-app project-nam
             npm run dev
 
 
+<></>(fragments for return 1 more more HTML ELEMENTS)
+when you create component function name is capital first alphabet
+file name capital (vite or  when you return HTML component name JSX ) file extensions
+
+
+when you use  veriable  is render than use Syntax {veriable-name}
+
+const reactElement = React.createElement(
+  'a',  // 1. The type of the HTML element to create, in this case, an anchor tag (<a>).
+  {href:'https://www.google.com', target:'_blank'},  // 2. The props object containing the attributes for the element.
+  'click me to visit google',  // 3. The children of the element, in this case, a text node.
+  anotheruser  // 4. Additional children (could be another element or component).
+);
+
+
+
+
+

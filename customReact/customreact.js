@@ -1,4 +1,4 @@
-function customRender(reactElement,container) {
+function customRender(reactElement,container) { 
     /*
     const domElement = document.createElement(reactElement.type)
     domElement.innerHTML = reactElement.children
@@ -18,13 +18,13 @@ container.appendChild(domElement)
 }
 
 const reactElement = {
-    type: 'a',
-    props: {
+    type: 'a',// element type
+    props: { // properties of tag
         href: 'https://www.google.com',
         target:'_blank'
     },
-    children: 'Click me to visit Google'
+    children: 'Click me to visit Google'// diplay text in web page
 }
 const mainContainer=document.getElementById('root')
 
-customRender(reactElement,mainContainer)
+customRender(reactElement,mainContainer)// ( what is inject , where inject )
