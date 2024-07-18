@@ -7,3 +7,24 @@ It allows React components to read data from a Redux Store, and dispatch Actions
  Redux helps apps to scale by providing a sensible way to manage state through a unidirectional data flow model.
   React Redux is conceptually simple. It subscribes to the Redux store,
    checks to see if the data which your component wants have changed, and re-renders your component.
+
+
+redux core library and React-redux implemention wering for redux and react redux comnucation .
+store :- single sourecs of truth
+         configureStore on {}
+         next create reducer
+
+
+ features \ todo  and  create todoSlice:-
+   createSlice()
+   name,initialstate,reducers{}
+
+   first create initialstate ={
+    todos:[{}]
+   }       
+
+state -update state value in the store
+action- action.payload
+
+
+
