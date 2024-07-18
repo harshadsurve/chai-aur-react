@@ -1,0 +1,30 @@
+
+What is a React Router?
+React Router is a standard library for routing in React.
+It enables the navigation among views of various components in a React Application, 
+allows changing the browser URL, and keeps the UI in sync with the URL.
+
+Features of React Router
+Declarative Routing: React Router v6 uses the Routes and Route components to define routes declaratively,
+ making the routing configuration simple and easy to read.
+Nested Routes: It supports nested routes, allowing for complex and hierarchical routing structures, 
+which helps in organizing the application better.
+Programmatic Navigation: The useNavigate hook enables programmatic navigation, allowing developers to 
+navigate between routes based on certain conditions or user actions.
+Route Parameters: It provides dynamic routing with route parameters, enabling the creation of routes that 
+can match multiple URL patterns.
+Improved TypeScript Support: Enhanced TypeScript support ensures that developers can build type-safe 
+applications, improving development efficiency and reducing errors.
+
+
+
+Components of React Router
+1. BrowserRouter and HashRouter
+BrowserRouter: Uses the HTML5 history API to keep your UI in sync with the URL.
+HashRouter: Uses the hash portion of the URL (i.e., window.location.hash) to keep your UI in sync with the URL.
+2. Routes and Route
+Routes: A container for all your route definitions.
+Route: Defines a single route with a path and the component to render.
+3. Link and NavLink
+Link: Creates navigational links in your application.
+NavLink: Similar to Link but provides additional styling attributes when the link is active.
