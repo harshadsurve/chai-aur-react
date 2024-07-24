@@ -66,6 +66,11 @@ react project create = 1. npe(node packge executor) create-react-app project-nam
 
                        npm run build
                        create build folder (js convert in , build server users)
+     "react-scripts":is responsiblr for inject javaScript in html file.
+
+
+
+
 2.
  Grab react and react-dom from npm, set up your custom build process with a bundler like Vite. bundler 
           npm create vite@latest
@@ -73,13 +78,38 @@ react project create = 1. npe(node packge executor) create-react-app project-nam
           select a framework (React)
           select a variant (javaScript)
            cd my-project
-            npm install 
+            npm install =  the packge.json dependencies after install add in node_modules.
             npm run dev
 
 
 <></>(fragments for return 1 more more HTML ELEMENTS)
 when you create component function name is capital first alphabet
 file name capital (vite or  when you return HTML component name JSX ) file extensions
+
+
+whta is render?
+In React, Render is the technique that can redirect a page with the help of function render().
+It is used to display the component on the UI returned as HTML or JSX components.
+ The ReactDOM.render() function takes two arguments, HTML code and an HTML element.
+
+whta is react component?
+Components are independent and reusable bits of code. 
+They serve the same purpose as JavaScript functions, but work in isolation and return HTML.
+
+
+whta is bundler?
+A bundler is a tool that takes all your JavaScript code, along with any other assets like CSS or images,
+ and combines them into a single file (or a few files) that can be served to the browser
+
+What is babel?
+Babel is a very famous transpiler that basically allows us to use future JavaScript in today’s browsers.
+ In simple words, it can convert the latest version of JavaScript code into the one that the browser understands.
+
+
+ what is build-
+ The build folder in a React.js project contains the final, optimized version of your app that is
+  ready to be deployed to a web server. It includes all the necessary files like HTML, CSS, and 
+  JavaScript, which have been compressed and prepared for the best performance.
 
 
 when you use  veriable  is render than use Syntax {veriable-name}
@@ -92,10 +122,8 @@ const reactElement = React.createElement(
 );
 
 
-whta is bundler?
-A bundler is a tool that takes all your JavaScript code, along with any other assets like CSS or images,
- and combines them into a single file (or a few files) that can be served to the browser
 
-What is babel?
-Babel is a very famous transpiler that basically allows us to use future JavaScript in today’s browsers.
- In simple words, it can convert the latest version of JavaScript code into the one that the browser understands.
+
+
+
+
