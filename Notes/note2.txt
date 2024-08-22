@@ -25,5 +25,10 @@ performance
    
    useEffect we are provides two things which is callback and dependencies
     useEffect(cb,[])
-    
+
+3. useRef Hook-
+   useRef is react Hook allow us to create mutable vriable, which will not re-render the component.
+   useRef is also used for accessing DOM elements.
+
+   const ref = useRef(null);
 
