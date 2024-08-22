@@ -65,7 +65,7 @@ react project create = 1. npe(node packge executor) create-react-app project-nam
                        npm run start
 
                        npm run build
-                       create build folder (js convert in , build server users)
+                       create build folder (js convert in ,  in devployment build folder server users)
      "react-scripts":is responsiblr for inject javaScript in html file.
 
 
@@ -113,6 +113,7 @@ Babel is a very famous transpiler that basically allows us to use future JavaScr
 
 
 when you use  veriable  is render than use Syntax {veriable-name}
+evalue expression means final out come
 
 const reactElement = React.createElement(
   'a',  // 1. The type of the HTML element to create, in this case, an anchor tag (<a>).
@@ -121,8 +122,15 @@ const reactElement = React.createElement(
   anotheruser  // 4. Additional children (could be another element or component).
 );
 
+babel-
+In simple terms, Babel is a tool that converts JSX (which looks like HTML in JavaScript)
+into regular JavaScript that browsers can understand.
+ JSX is easier for developers to write and read, but browsers can't run it directly.
+ Babel takes care of translating JSX into standard JavaScript behind the scenes, so your React code works in any brow
 
-
+JSX-
+JSX is a special syntax that looks like HTML but is used in JavaScript to describe what the user interface should look like in React. 
+It makes it easier to write and understand the structure of your UI components.
 
 
 
