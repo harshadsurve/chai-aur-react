@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card({username,btntext="visit me"}) {
+function Card({username,someobject,btntext="visit me"}) {
 
     return (
         <div className="relative h-[400px] w-[300px] rounded-md ">
@@ -14,7 +14,8 @@ function Card({username,btntext="visit me"}) {
     <h1 className="text-lg font-semibold text-white">{username}</h1>
     <p className="mt-2 text-sm text-gray-300">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-      debitis?
+      debitis? <br />
+      {someobject}
     </p>
     <button className="bg-black mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
      {btntext} 
