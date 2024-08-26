@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full h-screen duration-200"
+      <div className="w-full h-screen duration-500"
       style={{backgroundColor: color}}
       ></div>
       <div className="fixed flex flex-warp justify-center bottom-12 inset-x-0 px-2">
@@ -46,6 +46,10 @@ function App() {
          onClick={()=>setColor("Lime")}
           className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
           style={{backgroundColor:"Lime"}}>Lime</button>
+          <button 
+         onClick={()=>setColor("black")}
+          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor:"black"}}>black</button>
         </div>
       </div>
     </>
