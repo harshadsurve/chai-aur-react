@@ -32,8 +32,13 @@ function App() {
             backgroundImage: `url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
         }}
     >
-        <div className="w-full">
+        <div className="w-full flex ">
+            <div className='h-48 px-10   place-items-center'>
+                <img src="https://plus.unsplash.com/premium_photo-1674406481284-43eba097a291?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2hhaXxlbnwwfHwwfHx8MA%3D%3D" alt="" />
+            </div>
             <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+            <h1 className='text-center font-bold'>Currecny Convert App</h1>
+            <br />
                 <form
                     onSubmit={(e) => {
                         e.preventDefault();
