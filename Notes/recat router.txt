@@ -1,5 +1,8 @@
 
 What is a React Router?
+React Router is a tool that makes it easy to create different pages or views in a React app without having to reload 
+the page every time you click on a link. It allows you to control what users see based on the URL in the browser.
+
 React Router is a standard library for routing in React.
 It enables the navigation among views of various components in a React Application, 
 allows changing the browser URL, and keeps the UI in sync with the URL.
