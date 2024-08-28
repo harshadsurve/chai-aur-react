@@ -11,20 +11,27 @@ It allows React components to read data from a Redux Store, and dispatch Actions
 
 redux core library and React-redux implemention wering for redux and react redux comnucation .
 store :- single sourecs of truth
-         configureStore on {}
+         configureStore inside {}
          next create reducer
 
 
  features \ todo  and  create todoSlice:-
    createSlice()
-   name,initialstate,reducers{}
-
-   first create initialstate ={
+   name,initialstate,reducers{}list
+    name:
+    create initialstate ={
     todos:[{}]
    }       
-
-state -update state value in the store
+    reducer: {
+      key:(state,action)=>{}
+    }
+state -updated state value in the store
 action- action.payload
+
+dispatch -
+dispatch is a method 
+ dispatch is used reducer for changed value from store.
+
 
 
 
