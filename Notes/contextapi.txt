@@ -13,3 +13,79 @@ Working of Context API
 To work with Context API we need React.createContext. 
 It has two properties Provider and Consumer.
 The Provider acts as a parent it passes the state to its children whereas the Consumer uses the state that has been passed.
+
+type -1 
+1: create the file namecontext.js
+                  |   
+    import react form "react"
+    
+    const nameconetxt = React.createContext()
+    
+    export default nameconetxt
+
+2: create file  namecontextProvider.jsx
+                  |
+    import react form "react"
+    import namecontext form "namecontext.js"
+
+    const nameContextProvider = ({ children }) => {
+    const [user, setUser] = React.useState(null);
+    return (
+        <namecontext .Provider value={{ user, setUser }}>
+            {children}
+        </namecontext .Provider>
+    );
+  };
+
+  export default nameContextProvider;
+
+3:import React, { useContext } from 'react';
+import UserContext from '../context/UserContext';
+
+function Profile() {
+    const { user } = useContext(UserContext);
+    if (!user) return <div>Please login</div>;
+
+    return (
+        <div>
+            <p>Welcome {user.username}</p>
+        </div>
+    );
+}
+
+export default Profile;
+
+4:import './App.css';
+import UserContextProvider from './context/UserContextProvider';
+import Login from './components/Login';
+import Profile from './components/Profile';
+
+function App() {
+    return (
+        <UserContextProvider>
+            <Login />
+            <Profile />
+            <h1>Chai aur React</h1>
+        </UserContextProvider>
+    );
+}
+
+export default App;
+
+
+type-2
+  import {createContext,useContext} from "react";
+
+  export const ThemeContext = createContext({
+    themeMode: 'light',
+    darkTheme: () => {},
+    lightTheme:()=>{},
+  })
+
+  export const ThemeProvide = ThemeContext.Provider
+
+  export default function useTheme(){
+    return useContext(ThemeContext)
+  }
+   
+   
